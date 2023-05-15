@@ -258,6 +258,7 @@ PRODUCT_PACKAGES += \
     libEGL_adreno \
     libGLESv1_CM_adreno \
     libGLESv2_adreno \
+    libVkLayer_ADRENO_qprofiler \
     libq3dtools_adreno \
     libq3dtools_esx \
     android.hardware.bluetooth@1.0-impl-qti \
@@ -280,7 +281,9 @@ PRODUCT_PACKAGES += \
     libOmxVpp \
     libOmxWmaDec \
     libOpenCL \
+    libOpenCL_adreno \
     libVkLayer_q3dtools \
+    libadreno_app_profiles \
     libadreno_utils \
     libadsprpc \
     libbluetooth_audio_session_qti \
@@ -297,8 +300,11 @@ PRODUCT_PACKAGES += \
     libgpudataproducer \
     libgsl \
     libidl \
+    libkcl \
+    libkernelmanager \
     libllvm-glnext \
     libllvm-qcom \
+    libllvm-qgl \
     libmdmdetect \
     libmdsprpc \
     libmmosal_vendor \
